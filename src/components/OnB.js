@@ -5,7 +5,6 @@ import Button from 'react-bootstrap/Button'
 class OnB extends Component {
 
     on = () => {
-        alert('tesOn');
         this.url = '172.28.219.225/api/1028d66426293e821ecfd9ef1a0731df'
         Axios.put(this.url + '/lights/1/state', {
           on : true
