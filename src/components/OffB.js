@@ -5,9 +5,9 @@ import Button from 'react-bootstrap/Button'
 class OffB extends Component {
 
     off = () => {
-        this.url = '172.28.219.225/api/1028d66426293e821ecfd9ef1a0731df'
-        Axios.put(this.url + '/lights/1/state', {
-          on : false
+        this.url = 'https://172.28.219.225/api/NA4t9hTylAS7RWzmw4VYXrbSb2VnPpDIA4ctvrWe'
+        Axios.put(this.url + '/lights/3/state', {
+          "on" : false
         });
     }
 
