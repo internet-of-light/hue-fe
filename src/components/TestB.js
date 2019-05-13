@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button'
 class TestB extends Component {
 
     t = () => {
-        this.url = 'https://172.28.219.225/api/NA4t9hTylAS7RWzmw4VYXrbSb2VnPpDIA4ctvrWe/lights'
+        this.url = 'http://172.28.219.189/api/Lht3HgITYDN-96UYm5mkJ4CEjKj20d3siYidcSq-/lights'
         Axios.get(this.url)
         .then(function (response) {
             // handle success
